@@ -8,7 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
-/* change to header element selector */
+/* uses header element selector */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -22,11 +22,6 @@ h1 {
   display: inline-block;
 }
 
-/* change to ID selector since this is unique  */
-#seo {
-    color: #d9dcd6;
-}
-
 /* combine .header div & .header div ul selecor into nav element selector */
 nav {
     padding-top: 15px;
@@ -37,13 +32,11 @@ nav {
     list-style-type: none
 }
 
-/* change to li element selector */
+/* uses li element selector */
 li {
     display: inline-block;
     margin-left: 25px;
 }
-
-
 
 a {
     color: #ffffff;
@@ -54,11 +47,16 @@ p {
     font-size: 16px;
 }
 
-.hero {
+/* uses ID selector since this is unique  */
+#seo {
+    color: #d9dcd6;
+}
+
+ /* move url to html <img> element and sets a new class selector */
+.digital-marketing-meeting {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -78,6 +76,8 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
+
+
 
 .benefits {
     margin-right: 20px;

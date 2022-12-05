@@ -22,6 +22,11 @@ h1 {
   display: inline-block;
 }
 
+/* uses ID selector since this is unique  */
+#seo {
+    color: #d9dcd6;
+}
+
 /* combine .header div & .header div ul selecor into nav element selector */
 nav {
     padding-top: 15px;
@@ -32,7 +37,7 @@ nav {
     list-style-type: none
 }
 
-/* uses li element selector */
+/* uses simple li element selector */
 li {
     display: inline-block;
     margin-left: 25px;
@@ -45,11 +50,6 @@ a {
 
 p {
     font-size: 16px;
-}
-
-/* uses ID selector since this is unique  */
-#seo {
-    color: #d9dcd6;
 }
 
  /* move url to html <img> element and sets a new class selector */
@@ -76,8 +76,6 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
-
-
 
 aside {
     margin-right: 20px;
@@ -111,9 +109,8 @@ h3 {
     max-width: 150px;
 }
 
-
-
-.search-engine-optimization {
+/* consolidates similar class selector into one */
+.content-photos {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -122,48 +119,18 @@ h3 {
     color: #ffffff;
 }
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-
-
-
-.search-engine-optimization img {
+/* consolidates similar class selectors into one */
+.content img {
     max-height: 200px;
 }
 
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-
-
-/* uses h2 element selector to class selector */
+/* uses simple h2 element selector than class selector */
 h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-/* sets element selector in footer section */
+/* uses simple element selectors */
 footer {
     padding: 30px;
     clear: both;
@@ -171,6 +138,7 @@ footer {
     text-align: center;
 }
 
+/* make heading attribute fall in sequential order */
 h4 {
     font-size: 20px;
 }

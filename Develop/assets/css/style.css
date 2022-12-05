@@ -8,38 +8,42 @@ body {
     background-color: #d9dcd6;
 }
 
-.header {
+/* change to header element selector */
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-.header h1 {
-    display: inline-block;
-    font-size: 48px;
+/* make h1 element selector code simple */
+h1 {
+  font-size: 48px;
+  display: inline-block;
 }
 
-.header h1 .seo {
+/* change to ID selector since this is unique  */
+#seo {
     color: #d9dcd6;
 }
 
-.header div {
+/* combine .header div & .header div ul selecor into nav element selector */
+nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
+    list-style-type: none
 }
 
-.header div ul {
-    list-style-type: none;
-}
-
-.header div ul li {
+/* change to li element selector */
+li {
     display: inline-block;
     margin-left: 25px;
 }
+
+
 
 a {
     color: #ffffff;

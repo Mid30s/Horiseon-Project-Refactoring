@@ -1,49 +1,53 @@
 # Horiseon-Project-Refactoring
 
 Refactoring existing code to meet a certain set of criterias.
+
+## Acceptance Criteria
+
+* Application's links all function correctly.
+* Application's CSS selectors and properties are    consolidated and organized to follow semantic structure.
+* Application's CSS file is properly commented.
+* Application deployed at live URL.
+* Application loads with no errors.
+* Application GitHub URL submitted.
+* GitHub repository contains application code.
+* Application resembles mock-up provided in the Challenge instructions (at least 90%).
+* Repository has a unique name.
+* Repository follows best practices for file structure and naming conventions.
+* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
+* Repository contains multiple descriptive commit messages.
+* Repository contains quality README file with description, screenshot, and link to deployed application.
+
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
+This challenge we focused on HTML and CSS to make existing code more accessible. This project is a good way to test learing progress so far.
 
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
+During this project, I manage to solve issues in html and css files including:
 
-## Table of Contents (Optional)
+ - Made a logical structure by using semantic HTML elements,such as header/nav/main/figure/section/aside/footer.
+ - Fixed the broken link in the nav bar.
+ - Consolidated repeating class selector into one selector.
+ - Ensured all image elements have alt attributes.
+ - Made a handy comment for all amended css selecor.
 
-If your README is long, add a table of contents to make it easy for users to find what they need.
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
+According to this project, I have a better understanding about how to refactoring existing code. In HTML, I focus on semantic structures. In CSS,I focus selctors,color,position of element. More importantly, I also gained Github skills, including creat repository,maintain repo from git push and pull and delopy repository.
 
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+N/A
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+To view this application,the following image shows the landing page of the application.
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
-
-![alt text](assets/images/screenshot.png)
+![Horiseon](./assets/images/screenshot.png)
 
 ## Credits
 
-List your collaborators, if any, with links to their GitHub profiles.
-
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
+N/A
 
 ## License
 
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
-
----
-
+Please refer to the LICENSE in the repo.
 
